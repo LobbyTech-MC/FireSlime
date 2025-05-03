@@ -110,7 +110,7 @@ public class FiniteGauntlet extends SlimefunItem {
         for (int i = 0; i < amountToKick; i++) {
             int ran = new Random().nextInt(players.size());
             DustPlayers.add(players.get(ran));
-            players.get(ran).addPotionEffect(new PotionEffect(PotionEffectType.SLOW, (delay + 2) * 20, 1));
+            players.get(ran).addPotionEffect(new PotionEffect(PotionEffectType.SLOWNESS, (delay + 2) * 20, 1));
             players.remove(ran);
         }
         Bukkit.getScheduler().scheduleSyncDelayedTask(Slimefun.instance(), () -> {

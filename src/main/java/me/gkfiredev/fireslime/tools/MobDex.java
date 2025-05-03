@@ -37,7 +37,7 @@ public class MobDex extends SlimefunItem implements Rechargeable {
             MobDex dex = (MobDex) MobDex.getByItem(item);
             if (dex.getItemCharge(item) <= 0.0f) return;
             switch (entity.getType()) {
-                case MUSHROOM_COW:
+                case MOOSHROOM:
                     p.sendMessage(prefix + entity.getType().name().toUpperCase() + ": 非常稀有，主要生成于蘑菇岛，可用来获取牛奶和蘑菇煲。(试着让闪电劈中它)");
                     break;
                 case BAT:
@@ -187,7 +187,7 @@ public class MobDex extends SlimefunItem implements Rechargeable {
                 case SLIME:
                     p.sendMessage(prefix + entity.getType().name().toUpperCase() + ": 可爱又有趣。但是它们只能跳跃。");
                     break;
-                case SNOWMAN:
+                case SNOW_GOLEM:
                     p.sendMessage(prefix + entity.getType().name().toUpperCase() + ": 想堆雪人吗？");
                     break;
                 case SPIDER:

@@ -113,33 +113,33 @@ public class FireSlime extends JavaPlugin implements SlimefunAddon {
     }
 
     private void registerMoreTools() {
-        registerPickaxe(Material.GOLDEN_PICKAXE, "COPPER", SlimefunItems.COPPER_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 3), new Pair<>(Enchantment.DURABILITY, 2)));
-        registerPickaxe(Material.IRON_PICKAXE, "TIN", SlimefunItems.TIN_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 4), new Pair<>(Enchantment.DURABILITY, 1)));
-        registerPickaxe(Material.IRON_PICKAXE, "SILVER", SlimefunItems.SILVER_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 4), new Pair<>(Enchantment.DURABILITY, 5)));
-        registerPickaxe(Material.IRON_PICKAXE, "ALUMINUM", SlimefunItems.ALUMINUM_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 7)));
-        registerPickaxe(Material.IRON_PICKAXE, "LEAD", SlimefunItems.LEAD_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 3), new Pair<>(Enchantment.DURABILITY, 2)));
-        registerPickaxe(Material.IRON_PICKAXE, "ZINC", SlimefunItems.ZINC_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 2), new Pair<>(Enchantment.DURABILITY, 4)));
-        registerPickaxe(Material.IRON_PICKAXE, "MAGNESIUM", SlimefunItems.MAGNESIUM_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 5), new Pair<>(Enchantment.DURABILITY, 2)));
+        registerPickaxe(Material.GOLDEN_PICKAXE, "COPPER", SlimefunItems.COPPER_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 3), new Pair<>(Enchantment.UNBREAKING, 2)));
+        registerPickaxe(Material.IRON_PICKAXE, "TIN", SlimefunItems.TIN_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 4), new Pair<>(Enchantment.UNBREAKING, 1)));
+        registerPickaxe(Material.IRON_PICKAXE, "SILVER", SlimefunItems.SILVER_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 4), new Pair<>(Enchantment.UNBREAKING, 5)));
+        registerPickaxe(Material.IRON_PICKAXE, "ALUMINUM", SlimefunItems.ALUMINUM_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 7)));
+        registerPickaxe(Material.IRON_PICKAXE, "LEAD", SlimefunItems.LEAD_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 3), new Pair<>(Enchantment.UNBREAKING, 2)));
+        registerPickaxe(Material.IRON_PICKAXE, "ZINC", SlimefunItems.ZINC_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 2), new Pair<>(Enchantment.UNBREAKING, 4)));
+        registerPickaxe(Material.IRON_PICKAXE, "MAGNESIUM", SlimefunItems.MAGNESIUM_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 5), new Pair<>(Enchantment.UNBREAKING, 2)));
 
-        registerPickaxe(Material.IRON_PICKAXE, "STEEL", SlimefunItems.STEEL_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 5), new Pair<>(Enchantment.DURABILITY, 4)));
-        registerPickaxe(Material.GOLDEN_PICKAXE, "BRONZE", SlimefunItems.BRONZE_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 3), new Pair<>(Enchantment.DURABILITY, 3)));
-        registerPickaxe(Material.IRON_PICKAXE, "BILLON", SlimefunItems.BILLON_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 4), new Pair<>(Enchantment.DURABILITY, 2)));
-        registerPickaxe(Material.GOLDEN_PICKAXE, "BRASS", SlimefunItems.BRASS_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 4), new Pair<>(Enchantment.DURABILITY, 3)));
-        registerPickaxe(Material.GOLDEN_PICKAXE, "ALUMINUM_BRASS", SlimefunItems.ALUMINUM_BRASS_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 5), new Pair<>(Enchantment.DURABILITY, 2)));
+        registerPickaxe(Material.IRON_PICKAXE, "STEEL", SlimefunItems.STEEL_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 5), new Pair<>(Enchantment.UNBREAKING, 4)));
+        registerPickaxe(Material.GOLDEN_PICKAXE, "BRONZE", SlimefunItems.BRONZE_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 3), new Pair<>(Enchantment.UNBREAKING, 3)));
+        registerPickaxe(Material.IRON_PICKAXE, "BILLON", SlimefunItems.BILLON_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 4), new Pair<>(Enchantment.UNBREAKING, 2)));
+        registerPickaxe(Material.GOLDEN_PICKAXE, "BRASS", SlimefunItems.BRASS_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 4), new Pair<>(Enchantment.UNBREAKING, 3)));
+        registerPickaxe(Material.GOLDEN_PICKAXE, "ALUMINUM_BRASS", SlimefunItems.ALUMINUM_BRASS_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 5), new Pair<>(Enchantment.UNBREAKING, 2)));
 
-        registerAxe(Material.GOLDEN_AXE, "COPPER", SlimefunItems.COPPER_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 2), new Pair<>(Enchantment.DURABILITY, 2)));
-        registerAxe(Material.IRON_AXE, "TIN", SlimefunItems.TIN_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 2), new Pair<>(Enchantment.DURABILITY, 1)));
-        registerAxe(Material.IRON_AXE, "SILVER", SlimefunItems.SILVER_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 2), new Pair<>(Enchantment.DURABILITY, 5)));
-        registerAxe(Material.IRON_AXE, "ALUMINUM", SlimefunItems.ALUMINUM_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 5)));
-        registerAxe(Material.IRON_AXE, "LEAD", SlimefunItems.LEAD_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 2), new Pair<>(Enchantment.DURABILITY, 2)));
-        registerAxe(Material.IRON_AXE, "ZINC", SlimefunItems.ZINC_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 2), new Pair<>(Enchantment.DURABILITY, 4)));
-        registerAxe(Material.IRON_AXE, "MAGNESIUM", SlimefunItems.MAGNESIUM_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 3), new Pair<>(Enchantment.DURABILITY, 2)));
+        registerAxe(Material.GOLDEN_AXE, "COPPER", SlimefunItems.COPPER_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 2), new Pair<>(Enchantment.UNBREAKING, 2)));
+        registerAxe(Material.IRON_AXE, "TIN", SlimefunItems.TIN_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 2), new Pair<>(Enchantment.UNBREAKING, 1)));
+        registerAxe(Material.IRON_AXE, "SILVER", SlimefunItems.SILVER_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 2), new Pair<>(Enchantment.UNBREAKING, 5)));
+        registerAxe(Material.IRON_AXE, "ALUMINUM", SlimefunItems.ALUMINUM_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 5)));
+        registerAxe(Material.IRON_AXE, "LEAD", SlimefunItems.LEAD_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 2), new Pair<>(Enchantment.UNBREAKING, 2)));
+        registerAxe(Material.IRON_AXE, "ZINC", SlimefunItems.ZINC_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 2), new Pair<>(Enchantment.UNBREAKING, 4)));
+        registerAxe(Material.IRON_AXE, "MAGNESIUM", SlimefunItems.MAGNESIUM_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 3), new Pair<>(Enchantment.UNBREAKING, 2)));
 
-        registerAxe(Material.IRON_AXE, "STEEL", SlimefunItems.STEEL_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 3), new Pair<>(Enchantment.DURABILITY, 4)));
-        registerAxe(Material.GOLDEN_AXE, "BRONZE", SlimefunItems.BRONZE_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 1), new Pair<>(Enchantment.DURABILITY, 3)));
-        registerAxe(Material.IRON_AXE, "BILLON", SlimefunItems.BILLON_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 2), new Pair<>(Enchantment.DURABILITY, 2)));
-        registerAxe(Material.GOLDEN_AXE, "BRASS", SlimefunItems.BRASS_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 2), new Pair<>(Enchantment.DURABILITY, 3)));
-        registerAxe(Material.GOLDEN_AXE, "ALUMINUM_BRASS", SlimefunItems.ALUMINUM_BRASS_INGOT, Arrays.asList(new Pair<>(Enchantment.DIG_SPEED, 3), new Pair<>(Enchantment.DURABILITY, 2)));
+        registerAxe(Material.IRON_AXE, "STEEL", SlimefunItems.STEEL_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 3), new Pair<>(Enchantment.UNBREAKING, 4)));
+        registerAxe(Material.GOLDEN_AXE, "BRONZE", SlimefunItems.BRONZE_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 1), new Pair<>(Enchantment.UNBREAKING, 3)));
+        registerAxe(Material.IRON_AXE, "BILLON", SlimefunItems.BILLON_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 2), new Pair<>(Enchantment.UNBREAKING, 2)));
+        registerAxe(Material.GOLDEN_AXE, "BRASS", SlimefunItems.BRASS_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 2), new Pair<>(Enchantment.UNBREAKING, 3)));
+        registerAxe(Material.GOLDEN_AXE, "ALUMINUM_BRASS", SlimefunItems.ALUMINUM_BRASS_INGOT, Arrays.asList(new Pair<>(Enchantment.EFFICIENCY, 3), new Pair<>(Enchantment.UNBREAKING, 2)));
     }
 
 }

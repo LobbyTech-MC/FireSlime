@@ -53,14 +53,14 @@ public class FireItemStack {
 //		meta.setBlockState(state);
         meta.addItemFlags(ItemFlag.HIDE_DYE, ItemFlag.HIDE_ATTRIBUTES);
         shield.setItemMeta(meta);
-        shield.addUnsafeEnchantment(Enchantment.DURABILITY, 6);
+        shield.addUnsafeEnchantment(Enchantment.UNBREAKING, 6);
         return shield;
     }
 
     public static ItemStack Master_Sword_ItemStack() {
         ItemStack sword = new ItemStack(Material.DIAMOND_SWORD);
-        sword.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 8);
-        sword.addUnsafeEnchantment(Enchantment.DURABILITY, 6);
+        sword.addUnsafeEnchantment(Enchantment.SHARPNESS, 8);
+        sword.addUnsafeEnchantment(Enchantment.UNBREAKING, 6);
         return sword;
     }
 }
